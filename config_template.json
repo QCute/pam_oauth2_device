@@ -1,0 +1,25 @@
+{
+    "oauth": {
+        "client": {
+            "id": "the_client_id",
+            "secret": "the_client_secret"
+        },
+        "scope": "user",
+        "device_code_url": "https://github.com/device/code",
+        "access_token_url": "https://github.com/oauth/access_token",
+        "user_info_url": "https://github.com/user",
+        "username_attribute": "the_username_attribute",
+        "name_attribute": "the_name_attribute",
+        "sub_attribute": "the_sub_attribute",
+        "require_mfa": false
+    },
+    "qr": {
+        "show": true,
+        "error_correction_level": 0
+    },
+    "users": {
+        "the_oauth_username": [
+            "the_local_account"
+        ]
+    }
+}

@@ -1,0 +1,6 @@
+[submodule "src/json"]
+	path = src/json
+	url = https://github.com/nlohmann/json.git
+[submodule "src/QR-Code-generator"]
+	path = src/QR-Code-generator
+	url = https://github.com/nayuki/QR-Code-generator.git
